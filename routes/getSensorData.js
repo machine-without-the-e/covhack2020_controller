@@ -16,7 +16,7 @@ var router = Router({
   * @route {GET} /
   */
  router.get('/', async (cnx) => {
-
+    
  })
  
  module.exports = router;
