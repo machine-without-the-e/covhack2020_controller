@@ -6,13 +6,8 @@ var data = require('../getSensorData');
 var router = Router({
     prefix: '/pi/getSensorData'
  });
- 
- //because we are going to parse POST parameters we will import koa-bodyparser
- var bodyParser = require('koa-bodyparser');
- 
  /**
   * Gets current moisture and light data
-  *
   * @name Get route
   * @route {GET} /
   */
